@@ -1,0 +1,41 @@
+.header .navbar {
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 0;
+  box-shadow: 0 0 5px 5px #CBC4C4; }
+  .header .navbar h1 {
+    font-size: 23px;
+    margin: 15px auto; }
+
+.content {
+  background-color: #f2f2f2; }
+  .content .list-people {
+    padding: 15px; }
+    .content .list-people li {
+      list-style: none;
+      margin-bottom: 7px;
+      background-color: #ffffff;
+      padding: 10px;
+      border-bottom: 1px solid #DEDFDF;
+      box-shadow: 0 3px 3px 0 #DEDFDF; }
+      .content .list-people li .profile img {
+        border-radius: 50%;
+        float: left; }
+      .content .list-people li .profile .name {
+        float: left;
+        margin-left: 10px; }
+        .content .list-people li .profile .name h2 {
+          color: #000000;
+          line-height: 20px; }
+          .content .list-people li .profile .name h2:hover {
+            color: #009688; }
+        .content .list-people li .profile .name small {
+          font-size: 12px; }
+      .content .list-people li .desc {
+        clear: both; }
+      .content .list-people li:hover {
+        box-shadow: 0 5px 5px 0 #CBC4C4;
+        background-color: #FCFCFC;
+        z-index: 5; }
+
+/*# sourceMappingURL=listPeople.css.map */
