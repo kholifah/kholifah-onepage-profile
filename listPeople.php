@@ -38,7 +38,7 @@
 		</div><!--end-content-->
 
 		<div class="footer">
-			<span>copyright &copy 2015 pondok programmer | kholifah</span>
+			<span>copyright &copy; 2018 | kholifah</span>
 		</div><!--end-footer-->
 
 

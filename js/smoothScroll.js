@@ -13,7 +13,7 @@ $(document).ready(function() {
 				event.preventDefault();
 				jQuery('html, body').animate({scrollTop: 0}, duration);
 				return false;
-			})
+			});
 
 			$('a[href^="#"]').on('click',function (e) {
 				e.preventDefault();
@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 				$('html, body').stop().animate({
 					'scrollTop': $target.offset().top
-				}, 900, 'swing', function () {
+				}, 1200, 'swing', function () {
 					window.location.hash = target;
 				});
 			});
